@@ -1,0 +1,24 @@
+DELETE OR EDIT FILE LATER
+# Concept 1: Tracks & Poetry 
+Get recommended poems based off user's recent tracks. AI summarizes the vibe of the tracks, verifies vibe with the user, then returns poems that match vibe of user's recent listening. 
+
+## Sketch
+![AI confirms the vibes of user's recent listening before generating poems](Tracks&PoetrySketch.png)
+
+## Who it's for
+This project would benefit music lovers  who are trying to get back into reading and need motivation. Specifically those who want a fun way to find short readings (poems) that they'd feel connected too.  
+
+## Value Adds...
+This adds value to the user by producing short form literature tailored by analyzing their recent listening data. It gives the user another way to learn about themselves, while expanding their literary world.  
+
+## Data Used...
+This project would collect user listener data with Last.Fm's API, as well as poetry data from the PoetryDB API. 
+
+## Depth Item...
+AI step with a human check
+
+## Diagram User Flow + States
+![Expected user flow for Tracks & Poetry site including error states](Tracks&PoetryFlow.png)
+
+## AI Building pros and cons 
+AI would be good at making this app quickly, but would be bad at summarizing a "vibe" based off of users recent listening- It would probably need a bit more prompting/explaination on what exactly the "vibe" part is going to be used for.
