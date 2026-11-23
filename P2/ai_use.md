@@ -1,8 +1,15 @@
 ## Gabby: 
 AI draft: check me. 2026-11-21 - P2/ai_use.md: added this wrap-up entry; no project code or functions changed.
+
 AI draft: check me. 2026-11-22 - P2/ai_use.md: added this wrap-up entry; P2/p2.md: reviewed for feedback, no content or functions changed.
 
-Reflection: (Check before submit) AI used for this section was to help with setting up and testing the copilot-instructions.md file
+AI draft: check me. 2026-11-23 - P2/test_llm.py: AI diagnosed setup and API errors; no project code or functions changed. P2/requirements.txt: AI identified missing dependencies but made no dependency changes.
+
+Claude Chat link: https://claude.ai/share/8b144050-fd82-4d99-888d-3c72fa5bf12b 
+
+Reflection (Gabby): 
+I used a Claude and CoPilot to help with this assignment. Specifically I used these AI tools to help with double checking that my answers matched with the rubric requirements, setting up/testing the copilot-instructions.md file, and to help troubleshoot my issue with trying to get Gemini's API to run. 
+Overall, working with AI for this assignment helped me to get to run things faster, especially when it came to roadblocks that prevented me from seeing actual outputs versus expected ones. I checked it's work by applying it's suggestions one-by-one, then made sure I recieved the terminal outputs and chat responses I expected. Somethings that I changed myself were which suggestions from AI to actually apply to the code. After some back and forth with the chat to make sure that my responses were hitting the points mentioned in the rubric's requirements, I noticed that the AI was starting to get really specific and started talking in circles- that's when I realized I didn't have to take every single advice given to me by AI, I just had to think which ones applied best to my situation.  
 
 ## Flora：
 AI draft: check me. 2026-11-21 - P2/test_poetrydb.py, test_lastfm.py, test_llm.py, gemini_models.py: AI wrote the first version of these test scripts for the PoetryDB, Last.fm and Gemini calls. I ran them myself, fixed the file paths and the Gemini model name (2.5 returned 404, 3.8 returned 503, 3.5 worked), and used the real responses in p2.md.

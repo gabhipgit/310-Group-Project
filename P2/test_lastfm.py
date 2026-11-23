@@ -10,7 +10,7 @@ r = requests.get("https://ws.audioscrobbler.com/2.0/", params={
     "user": "rj",
     "api_key": key,
     "format": "json",
-    "limit": 5,
+    "limit": 10,
 })
 print(r.status_code)
 print(r.json())
